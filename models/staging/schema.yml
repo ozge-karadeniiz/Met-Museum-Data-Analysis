@@ -1,0 +1,41 @@
+version: 2
+
+models:
+  - name: stg_met_objects
+    description: "The Met açık erişim koleksiyonunun temizlenmiş ve standartlaştırılmış staging modeli."
+    columns:
+      - name: object_id
+        description: "Eserin tekil kimlik numarası (Primary Key)."
+        tests:
+          - unique
+          - not_null
+
+      - name: title
+        description: "Eserin başlığı. Boş olanlar 'Untitled' yapılmıştır."
+        tests:
+          - not_null
+
+      - name: department
+        description: "Eserin bağlı olduğu ana küratöryel departman."
+        tests:
+          - not_null
+
+      - name: is_highlight
+        description: "Öne çıkan başyapıt bayrağı."
+        tests:
+          - not_null
+
+      - name: is_timeline_work
+        description: "Heilbrunn Sanat Tarihi Zaman Çizelgesi bayrağı."
+        tests:
+          - not_null
+
+      - name: is_public_domain
+        description: "Açık erişim ve kamu malı durumu."
+        tests:
+          - not_null
+
+      - name: is_on_view
+        description: "Eserin galeride sergilenme durumu."
+        tests:
+          - not_null
