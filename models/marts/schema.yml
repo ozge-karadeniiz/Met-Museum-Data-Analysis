@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: mart_met_objects
+    description: >
+      Curated and analytical data mart of The Metropolitan Museum of Art Open Access collection.
+      Enriched with official Heilbrunn Timeline of Art History (TOAH) chronological eras,
+      standardized curatorial object types and materials, and normalized artist demographics.
+    columns:
+      - name: object_id
+        description: "Unique identifying number for each artwork (Primary Key)."
+        tests:
+          - unique
+          - not_null
+
+      - name: department
+        description: "Curatorial department responsible for the artwork."
+        tests:
+          - not_null
+
+      - name: timeline_period
+        description: "Official canonical chronological era based on the Heilbrunn Timeline of Art History."
+        tests:
+          - not_null
+
+      - name: timeline_period_order
+        description: "Numeric sequence key (1-11, 98, 99) used to order chronological axes chronologically in Power BI."
+        tests:
+          - not_null
+
+      - name: object_type_material
+        description: "Standardized primary medium and object taxonomy aligned with The Met's official website filters."
+        tests:
+          - not_null
+
+      - name: artist_gender_standardized
+        description: "Normalized artist gender categories for institutional representation analysis."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - 'Female'
+                  - 'Male'
+                  - 'Mixed / Collaborative'
+                  - 'Not Specified / Unknown'
+
+      - name: is_on_view
+        description: "Boolean flag indicating whether the artwork is physically displayed in galleries or kept in storage."
+        tests:
+          - not_null
