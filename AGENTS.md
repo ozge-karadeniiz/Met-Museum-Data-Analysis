@@ -124,24 +124,24 @@ değildir; repo ve canlı BigQuery ile karşılaştır. Örneğin 07 numaralı k
 planlanan `mart_met_kpis` ve köprü tabloları bu doğrulama sırasında repoda ve
 `met_data` tablo listesinde bulunmuyordu.
 
-2026-10-09 anlık planında metrik sözlüğü (03) devam ediyor; Power BI raporu
-(08) ve ML adımları (10–12) To-Do'da, iki rapora ML ekleme (13) ve uçtan uca
-sunum/doğrulama (14) Backlog'da. Yeni işe başlarken güncel kart durumunu oku.
+2026-10-09 anlık planında metrik sözlüğü (03) devam ediyor ve Power BI raporu
+(08) To-Do'da. Yeni işe başlarken güncel kart durumunu oku. Silinen veya eski
+ML kartlarındaki hedef ve teknik seçimleri kesinleşmiş karar olarak kullanma.
 
 Hipotezler: eski/yeni eserlerin kamu malı oranı, highlight eserlerde galeri
 bilgisi, bağış/satın alma, alan bazında eksiklik, departmana göre galeri
 bilgisi ve döneme göre malzeme kullanımı. Test edilmiş sonucu ve sınırlamalarını
 ham hipotezden ayır; Colab çıktılarının repoda bulunduğunu varsayma.
 
-ML hedefi `Department` sınıflandırmasıdır. Trello'nun 10–12 numaralı kartlarına
-göre özellikler başlık, malzeme ve eser türü metinleridir. `Department`,
-`Object_ID`, `Gallery_Number` ve `Credit_Line` özelliklere alınmaz. Sabit seed,
-ayrı holdout ve mümkün olduğunca sanatçı gruplarını ayıran bölme kullan;
-çoklu sanatçı/nadir sınıf kurallarını belgele. Dummy baseline ile TF-IDF +
-Logistic Regression'ı macro-F1, accuracy, sınıf bazlı sonuçlar ve confusion
-matrix üzerinden karşılaştır. Holdout değerlendirmesi ve tüm veri tahminlerini
-ayır; ayrı tahmin tablosunda `object_id`, `predicted_department`, model sürümü
-ve skor tanımı bulunsun. Yeniden çalıştırma tekrar kayıt üretmemelidir.
+Kullanıcının belirlediği ML araştırma hedefi: **Bir eserin highlight olmasını
+belirleyen faktörlerin, mevcut eser özelliklerinden öngörülebilir olup
+olmadığını incelemek.** Hedef değişken `is_highlight`'tır.
+
+Özellikler, model ailesi, eğitim/test bölmesi ve değerlendirme metrikleri henüz
+kararlaştırılmamıştır. Karar verilmemiş teknik seçimleri kesinleşmiş proje
+gereksinimleri gibi yazma. Tahmin performansı ve özelliklerle ilişkiler,
+highlight seçiminin nedenlerini veya nedensel etkileri kanıtlamaz; sonuçları
+bu ayrımı koruyarak yorumla.
 
 ## Değişiklik ve doğrulama
 
