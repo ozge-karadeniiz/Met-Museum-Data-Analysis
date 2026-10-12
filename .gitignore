@@ -11,3 +11,19 @@ target/
 dbt_packages/
 logs/
 # end dbt Cloud content
+
+# Local Power BI tooling and cached report data
+/work/pbi-validation/
+/work/pbi-schema-cache/
+/work/met-mart-metadata.json
+/work/powerbi-project-open.png
+/work/powerbi-exploration.png
+/work/pbi-ui.ps1
+/work/powerbi-before-exploration-*/
+/work/powerbi-before-polish-*/
+/work/gallery-catalog.before-polish.json
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+__pycache__/
+/work/highlight-cache/
+/work/*.pbix

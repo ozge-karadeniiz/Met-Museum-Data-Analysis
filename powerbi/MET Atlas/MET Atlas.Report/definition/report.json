@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {
+    "customTheme": {
+      "name": "MetAtlasMuseum",
+      "reportVersionAtImport": {
+        "visual": "1.8.95",
+        "report": "2.0.95",
+        "page": "1.3.95"
+      },
+      "type": "RegisteredResources"
+    }
+  },
+  "resourcePackages": [
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "MetAtlasMuseum",
+          "path": "MetAtlasMuseum.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "bg_lobby_20261012041111.jpg",
+          "path": "bg_lobby_20261012041111.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "bg_overview_20261012041111.jpg",
+          "path": "bg_overview_20261012041111.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "bg_departments_20261012041111.jpg",
+          "path": "bg_departments_20261012041111.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "bg_periods_20261012041111.jpg",
+          "path": "bg_periods_20261012041111.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "bg_digital_gallery_20261012041111.jpg",
+          "path": "bg_digital_gallery_20261012041111.jpg",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useEnhancedTooltips": false
+  }
+}

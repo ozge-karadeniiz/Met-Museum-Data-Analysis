@@ -1,0 +1,179 @@
+{
+  "name": "MET Atlas Museum",
+  "dataColors": [
+    "#8E2A2F",
+    "#B8893A",
+    "#2F5266",
+    "#5E7A63",
+    "#B4643C",
+    "#6B4E71",
+    "#3F6F73",
+    "#A88B5E",
+    "#7D2E4A",
+    "#4A5A6A",
+    "#C9A45C",
+    "#55402F"
+  ],
+  "foreground": "#2A211B",
+  "foregroundNeutralSecondary": "#6E6052",
+  "foregroundNeutralTertiary": "#A39787",
+  "background": "#F7F2E8",
+  "backgroundLight": "#EFE8DC",
+  "backgroundNeutral": "#D8CDBD",
+  "tableAccent": "#C9A45C",
+  "hyperlink": "#8E2A2F",
+  "visitedHyperlink": "#6B4E71",
+  "good": "#5E7A63",
+  "neutral": "#C9A45C",
+  "bad": "#8E2A2F",
+  "maximum": "#5A1B1F",
+  "center": "#D3AC68",
+  "minimum": "#F2EADB",
+  "textClasses": {
+    "callout": {
+      "fontSize": 26,
+      "fontFace": "Georgia",
+      "color": "#2A211B"
+    },
+    "title": {
+      "fontSize": 14,
+      "fontFace": "Georgia",
+      "color": "#2A211B"
+    },
+    "header": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#2A211B"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#4A3F35"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "visualHeader": [
+          {
+            "background": {
+              "solid": {
+                "color": "#F7F2E8"
+              }
+            },
+            "foreground": {
+              "solid": {
+                "color": "#6E6052"
+              }
+            },
+            "border": {
+              "solid": {
+                "color": "#C9A45C"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "visualTooltip": [
+          {
+            "background": {
+              "solid": {
+                "color": "#1B1512"
+              }
+            },
+            "titleFontColor": {
+              "solid": {
+                "color": "#E2C47E"
+              }
+            },
+            "valueFontColor": {
+              "solid": {
+                "color": "#F4EDE1"
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#4A3F35"
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "showAxisTitle": false,
+            "gridlineShow": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#8A7B6B"
+              }
+            },
+            "showAxisTitle": false,
+            "gridlineColor": {
+              "solid": {
+                "color": "#E4DACA"
+              }
+            },
+            "gridlineStyle": "dotted"
+          }
+        ],
+        "outspacePane": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": "#F7F2E8"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#2A211B"
+              }
+            },
+            "border": true,
+            "borderColor": {
+              "solid": {
+                "color": "#C9A45C"
+              }
+            },
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0B0908"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "MET Atlas"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "36100d79-4f14-43a9-881e-ad2a57bcbc5d"
+  }
+}
