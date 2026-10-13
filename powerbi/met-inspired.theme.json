@@ -1,0 +1,13 @@
+{
+  "name": "Met Collection — Museum Inspired",
+  "dataColors": ["#B5121B", "#252525", "#87765B", "#47616D", "#777D68", "#A66B50", "#716679", "#898989"],
+  "background": "#FAF8F4",
+  "foreground": "#252525",
+  "tableAccent": "#B5121B",
+  "textClasses": {
+    "title": {"fontFace": "Georgia", "fontSize": 20, "color": "#252525"},
+    "header": {"fontFace": "Segoe UI", "fontSize": 12, "color": "#252525"},
+    "label": {"fontFace": "Segoe UI", "fontSize": 11, "color": "#252525"},
+    "callout": {"fontFace": "Segoe UI", "fontSize": 32, "color": "#252525"}
+  }
+}

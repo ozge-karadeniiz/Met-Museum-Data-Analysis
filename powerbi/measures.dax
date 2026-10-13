@@ -1,0 +1,24 @@
+-- Import the verified BigQuery mart as a table named Artwork before creating these measures.
+-- Measures have not yet been executed in Power BI.
+
+Artwork Count = DISTINCTCOUNT(Artwork[object_id])
+
+Department Count = DISTINCTCOUNT(Artwork[department])
+
+Highlight Artwork Count =
+    CALCULATE([Artwork Count], KEEPFILTERS(Artwork[is_highlight] = TRUE()))
+
+Public Domain Artwork Count =
+    CALCULATE([Artwork Count], KEEPFILTERS(Artwork[is_public_domain] = TRUE()))
+
+Public Domain Share = DIVIDE([Public Domain Artwork Count], [Artwork Count])
+
+-- This measures gallery metadata coverage, not confirmed current display status.
+Artwork With Gallery Information =
+    CALCULATE([Artwork Count], KEEPFILTERS(Artwork[is_on_view] = TRUE()))
+
+Gallery Information Share = DIVIDE([Artwork With Gallery Information], [Artwork Count])
+
+-- Use Artwork[department] directly as the department axis/slicer in this starter model.
+Department Share =
+    DIVIDE([Artwork Count], CALCULATE([Artwork Count], REMOVEFILTERS(Artwork[department])))

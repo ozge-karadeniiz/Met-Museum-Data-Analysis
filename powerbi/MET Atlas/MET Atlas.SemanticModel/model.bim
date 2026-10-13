@@ -1,0 +1,1983 @@
+{
+  "compatibilityLevel": 1606,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Artwork\",\"Gallery\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "tr-TR",
+    "cultures": [
+      {
+        "name": "tr-TR",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "artwork.artwork_count": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Artwork",
+                    "ConceptualProperty": "Artwork Count"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Eser": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Eser sayısı": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "artwork.department": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Artwork",
+                    "ConceptualProperty": "department"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Departman": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "artwork.gallery_information_share": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Artwork",
+                    "ConceptualProperty": "Gallery Information Share"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Galeri bilgisi": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Galeri bilgisi payı": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "artwork.highlight_share": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Artwork",
+                    "ConceptualProperty": "Highlight Share"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Öne çıkan": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Öne çıkan eser payı": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "artwork.missing_field_count": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Artwork",
+                    "ConceptualProperty": "Missing Field Count"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Eksik eser": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "artwork.missing_field_share": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Artwork",
+                    "ConceptualProperty": "Missing Field Share"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Eksik payı": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "artwork.public_domain_share": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Artwork",
+                    "ConceptualProperty": "Public Domain Share"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Kamu malı": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Kamu malı payı": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "artwork.timeline_period": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Artwork",
+                    "ConceptualProperty": "timeline_period"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Dönem": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "gallery.selected_artist_wiki_url": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Gallery",
+                    "ConceptualProperty": "Selected Artist Wiki URL"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Sanatçı • Wikidata ↗": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "gallery.selected_gallery_medium": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Gallery",
+                    "ConceptualProperty": "Selected Gallery Medium"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Malzeme / teknik": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "gallery.selected_met_url": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Gallery",
+                    "ConceptualProperty": "Selected Met URL"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Met eser sayfası ↗": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "gallery.selected_object_wiki_url": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Gallery",
+                    "ConceptualProperty": "Selected Object Wiki URL"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Eser • Wikidata ↗": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "gallery.title": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Gallery",
+                    "ConceptualProperty": "title"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Eser": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "qualityfield.field": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "QualityField",
+                    "ConceptualProperty": "Field"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Alan": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Artwork",
+        "columns": [
+          {
+            "name": "object_id",
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f294af8b-4ba0-4f1d-a74c-58a4ed569ab1",
+            "sourceColumn": "object_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "object_number",
+            "dataType": "string",
+            "lineageTag": "60b7808d-842b-4c1f-bbb0-16da8021b3f6",
+            "sourceColumn": "object_number",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "title",
+            "dataType": "string",
+            "lineageTag": "bbeade4b-b84e-45ce-baf4-78acdd148a98",
+            "sourceColumn": "title",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "object_name",
+            "dataType": "string",
+            "lineageTag": "662f8774-518b-4037-9f4f-f9015b0f2523",
+            "sourceColumn": "object_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "department",
+            "dataType": "string",
+            "lineageTag": "0144391d-d8b2-4d6a-9ad5-91fcb6c4e10c",
+            "sourceColumn": "department",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "is_highlight",
+            "dataType": "boolean",
+            "lineageTag": "e5ce61e1-723c-477f-aaf0-32c6e2f01d07",
+            "sourceColumn": "is_highlight",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "is_timeline_work",
+            "dataType": "boolean",
+            "lineageTag": "e813af55-49b5-4f0f-8e15-b580ff49142a",
+            "sourceColumn": "is_timeline_work",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "is_public_domain",
+            "dataType": "boolean",
+            "lineageTag": "351f5618-c807-4bce-86d5-9301edc3537e",
+            "sourceColumn": "is_public_domain",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "is_on_view",
+            "dataType": "boolean",
+            "lineageTag": "c7039e48-6bdb-4dac-ae2a-3371442b4bdb",
+            "sourceColumn": "is_on_view",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gallery_number",
+            "dataType": "string",
+            "lineageTag": "8c960d7a-21ca-4408-9860-10183bdb2dad",
+            "sourceColumn": "gallery_number",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "accession_year",
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "007c4525-3e78-435d-be37-de3c9d13bce3",
+            "sourceColumn": "accession_year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "accession_decade",
+            "dataType": "string",
+            "lineageTag": "fd170bb9-abe7-4a01-bc21-3177bf21f74a",
+            "sourceColumn": "accession_decade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "object_date",
+            "dataType": "string",
+            "lineageTag": "e0fb1f34-8383-4bb4-9761-e46f41abcb99",
+            "sourceColumn": "object_date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "object_begin_date",
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f6ff7a3a-1f21-4936-9c8e-fff97b1a58a9",
+            "sourceColumn": "object_begin_date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "object_end_date",
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f7d538c3-b17c-4a7c-9208-e7aa618d4daf",
+            "sourceColumn": "object_end_date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "timeline_period",
+            "dataType": "string",
+            "lineageTag": "f5d74183-a1a8-4808-8134-dcf1b2d6dd1c",
+            "sortByColumn": "timeline_period_order",
+            "sourceColumn": "timeline_period",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "timeline_period_order",
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "2a3b02d3-ac11-4a05-be00-0999b70e0de1",
+            "sourceColumn": "timeline_period_order",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "period",
+            "dataType": "string",
+            "lineageTag": "9dddcc92-3ca2-4437-9cc8-a54be5883b2c",
+            "sourceColumn": "period",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "culture",
+            "dataType": "string",
+            "lineageTag": "fe2118e0-62e5-480f-ac4e-a1275e910a84",
+            "sourceColumn": "culture",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "country",
+            "dataType": "string",
+            "lineageTag": "b480e6ab-e660-46f6-bad9-a8068b35f30b",
+            "sourceColumn": "country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "credit_line",
+            "dataType": "string",
+            "lineageTag": "0f2be98c-39e6-4ff3-8b78-5d432a3aeab3",
+            "sourceColumn": "credit_line",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "acquisition_category_broad",
+            "dataType": "string",
+            "lineageTag": "a508a30d-c790-43f9-9054-90162b1729f7",
+            "sourceColumn": "acquisition_category_broad",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "acquisition_type",
+            "dataType": "string",
+            "lineageTag": "4b0c8863-2567-422e-aada-43b00870bbdd",
+            "sourceColumn": "acquisition_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "primary_donor",
+            "dataType": "string",
+            "lineageTag": "73517934-d5d0-4158-b82b-3b1ee7282f93",
+            "sourceColumn": "primary_donor",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "artist_display_name",
+            "dataType": "string",
+            "lineageTag": "6a67274f-ba2a-4fa0-9a65-f7403b5af5f7",
+            "sourceColumn": "artist_display_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "artist_nationality",
+            "dataType": "string",
+            "lineageTag": "df7c46c4-1653-4d43-a876-2e5ca7a27f62",
+            "sourceColumn": "artist_nationality",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "artist_gender_standardized",
+            "dataType": "string",
+            "lineageTag": "0ae05bfe-6417-4d64-b2f9-19d46ecae8f2",
+            "sourceColumn": "artist_gender_standardized",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "artist_wikidata_url",
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "49453e71-1f0c-4be9-9cc4-1df02a4e5d4b",
+            "sourceColumn": "artist_wikidata_url",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "object_type_material",
+            "dataType": "string",
+            "lineageTag": "3a6d88cf-1470-4c93-8f9e-a73af2547e2c",
+            "sourceColumn": "object_type_material",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "classification",
+            "dataType": "string",
+            "lineageTag": "fe0b0af5-e91d-4f75-90a5-b770485a5d6d",
+            "sourceColumn": "classification",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "medium",
+            "dataType": "string",
+            "lineageTag": "e6d2d91e-c424-487f-b7fb-3c9840e10ec7",
+            "sourceColumn": "medium",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "dimensions",
+            "dataType": "string",
+            "lineageTag": "9f28c3a4-84d2-42e2-83bb-205c09f7f4df",
+            "sourceColumn": "dimensions",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rights_and_reproduction",
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "4ac80e51-8ca1-46b1-9fc4-02437eea51ce",
+            "sourceColumn": "rights_and_reproduction",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "link_resource",
+            "dataCategory": "WebUrl",
+            "dataType": "string",
+            "lineageTag": "aac15cfc-4ee6-4129-afb8-3717e18a5115",
+            "sourceColumn": "link_resource",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "b159914c-2a26-4221-92aa-51faafb72f07",
+        "measures": [
+          {
+            "name": "Artwork Count",
+            "displayFolder": "Koleksiyon",
+            "expression": "DISTINCTCOUNT(Artwork[object_id])",
+            "formatString": "#,0",
+            "lineageTag": "dfa6ab85-f809-44e7-9620-103e1644fecd"
+          },
+          {
+            "name": "Department Count",
+            "displayFolder": "Koleksiyon",
+            "expression": "DISTINCTCOUNT(Artwork[department])",
+            "formatString": "#,0",
+            "lineageTag": "dccd2ebc-8a9b-4ec4-811d-c53def6c151c"
+          },
+          {
+            "name": "Highlight Artwork Count",
+            "displayFolder": "Koleksiyon",
+            "expression": "CALCULATE([Artwork Count], KEEPFILTERS(Artwork[is_highlight] = TRUE()))",
+            "formatString": "#,0",
+            "lineageTag": "0fc924e0-7600-42ef-9888-1d7620ea7ea0"
+          },
+          {
+            "name": "Highlight Share",
+            "displayFolder": "Koleksiyon",
+            "expression": "DIVIDE([Highlight Artwork Count], [Artwork Count])",
+            "formatString": "0.0%",
+            "lineageTag": "eda94c73-ffc3-48a7-ad54-71286a91ccec"
+          },
+          {
+            "name": "Public Domain Artwork Count",
+            "displayFolder": "Koleksiyon",
+            "expression": "CALCULATE([Artwork Count], KEEPFILTERS(Artwork[is_public_domain] = TRUE()))",
+            "formatString": "#,0",
+            "lineageTag": "23114636-f428-4568-9912-728516216419"
+          },
+          {
+            "name": "Public Domain Share",
+            "displayFolder": "Koleksiyon",
+            "expression": "DIVIDE([Public Domain Artwork Count], [Artwork Count])",
+            "formatString": "0.0%",
+            "lineageTag": "a68dd206-63cd-4f84-9c68-d77d6d979afa"
+          },
+          {
+            "name": "Artwork With Gallery Information",
+            "displayFolder": "Galeri bilgisi",
+            "expression": "CALCULATE([Artwork Count], KEEPFILTERS(Artwork[is_on_view] = TRUE()))",
+            "formatString": "#,0",
+            "lineageTag": "d1980192-394c-4ad7-84ba-de66fa167c86"
+          },
+          {
+            "name": "Gallery Information Share",
+            "displayFolder": "Galeri bilgisi",
+            "expression": "DIVIDE([Artwork With Gallery Information], [Artwork Count])",
+            "formatString": "0.0%",
+            "lineageTag": "3d308e7d-d9f2-4f8b-9f55-6b07ff6c48b4"
+          },
+          {
+            "name": "Department Share",
+            "displayFolder": "Koleksiyon",
+            "expression": "DIVIDE([Artwork Count], CALCULATE([Artwork Count], REMOVEFILTERS(Artwork[department])))",
+            "formatString": "0.0%",
+            "lineageTag": "580181cc-75ab-49b9-bd4c-a0e04239423f"
+          },
+          {
+            "name": "Reversed Date Count",
+            "displayFolder": "Veri kalitesi",
+            "expression": "CALCULATE([Artwork Count], FILTER(Artwork, NOT ISBLANK(Artwork[object_begin_date]) && NOT ISBLANK(Artwork[object_end_date]) && Artwork[object_begin_date] > Artwork[object_end_date]))",
+            "formatString": "#,0",
+            "lineageTag": "f12e6c89-f66b-4d23-9514-9b48375dfc28"
+          },
+          {
+            "name": "Zero Year Count",
+            "displayFolder": "Veri kalitesi",
+            "expression": "CALCULATE([Artwork Count], FILTER(Artwork, (NOT ISBLANK(Artwork[object_begin_date]) && Artwork[object_begin_date] == 0) || (NOT ISBLANK(Artwork[object_end_date]) && Artwork[object_end_date] == 0)))",
+            "formatString": "#,0",
+            "lineageTag": "a5b35b26-a5a2-4d18-b41b-894b65ce525b"
+          },
+          {
+            "name": "Missing Accession Year Count",
+            "displayFolder": "Veri kalitesi",
+            "expression": "CALCULATE([Artwork Count], FILTER(Artwork, ISBLANK(Artwork[accession_year])))",
+            "formatString": "#,0",
+            "lineageTag": "c3d7bdbd-41e0-45ef-ac6c-7521352dee9f"
+          },
+          {
+            "name": "Missing Culture Count",
+            "displayFolder": "Veri kalitesi",
+            "expression": "CALCULATE([Artwork Count], FILTER(Artwork, ISBLANK(Artwork[culture]) || TRIM(Artwork[culture]) IN {\"\", \"Unknown\"}))",
+            "formatString": "#,0",
+            "lineageTag": "ff4e2bef-f989-47d0-a0c4-f42fdf36dea0"
+          },
+          {
+            "name": "Missing Country Count",
+            "displayFolder": "Veri kalitesi",
+            "expression": "CALCULATE([Artwork Count], FILTER(Artwork, ISBLANK(Artwork[country]) || TRIM(Artwork[country]) IN {\"\", \"Unknown\"}))",
+            "formatString": "#,0",
+            "lineageTag": "7662c8a4-985a-4503-81af-4eca666f6b94"
+          },
+          {
+            "name": "Missing Medium Count",
+            "displayFolder": "Veri kalitesi",
+            "expression": "CALCULATE([Artwork Count], FILTER(Artwork, ISBLANK(Artwork[medium]) || TRIM(Artwork[medium]) IN {\"\", \"Unknown\"}))",
+            "formatString": "#,0",
+            "lineageTag": "fd76a4fa-4067-4121-a87d-31e746036065"
+          },
+          {
+            "name": "Missing Artist Attribution Count",
+            "displayFolder": "Veri kalitesi",
+            "expression": "CALCULATE([Artwork Count], FILTER(Artwork, ISBLANK(Artwork[artist_display_name]) || TRIM(Artwork[artist_display_name]) IN {\"\", \"Unknown\", \"Anonymous / Unknown\"}))",
+            "formatString": "#,0",
+            "lineageTag": "0988ced3-502f-49c1-8ceb-a894dcec5f57"
+          },
+          {
+            "name": "Missing Field Count",
+            "displayFolder": "Veri kalitesi",
+            "expression": "SWITCH(SELECTEDVALUE(QualityField[Field]), \"Kültür\", [Missing Culture Count], \"Ülke\", [Missing Country Count], \"Malzeme\", [Missing Medium Count], \"Sanatçı atfı\", [Missing Artist Attribution Count], \"Edinim yılı\", [Missing Accession Year Count], BLANK())",
+            "formatString": "#,0",
+            "lineageTag": "02208d8a-906c-4925-8fa6-da841aabb503"
+          },
+          {
+            "name": "Missing Field Share",
+            "displayFolder": "Veri kalitesi",
+            "expression": "DIVIDE([Missing Field Count], [Artwork Count])",
+            "formatString": "0.0%",
+            "lineageTag": "73d663e6-9d4f-4fd8-9820-abbc96f90afb"
+          },
+          {
+            "name": "Narrative Overview",
+            "expression": [
+              "VAR n = [Artwork Count]",
+              "VAR pd = [Public Domain Share]",
+              "VAR topD = TOPN(1, VALUES(Artwork[department]), [Artwork Count], DESC, Artwork[department], ASC)",
+              "VAR topName = COALESCE(MAXX(topD, Artwork[department]), \"—\")",
+              "VAR topShare = CALCULATE([Department Share], topD)",
+              "RETURN",
+              "    \"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='760' height='58' viewBox='0 0 760 58'><foreignObject x='0' y='0' width='760' height='58'><div xmlns='http://www.w3.org/1999/xhtml' style='font-family:Segoe UI;font-size:14px;line-height:1.55;color:%23CFC2AE;margin:0'>\"",
+              "    & \"Bu rotada \"",
+              "    & \"<b style='color:%23E2C47E;font-family:Georgia;font-weight:normal;font-size:1.12em'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(FORMAT(n, \"#,0\"), \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</b>\"",
+              "    & \" eser var; kamu mal%C4%B1 pay%C4%B1 \"",
+              "    & \"<b style='color:%23E2C47E;font-family:Georgia;font-weight:normal;font-size:1.12em'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(IF(ISBLANK(pd), \"hesaplanamıyor\", FORMAT(pd, \"0.0%\")), \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</b>\"",
+              "    & \". En kalabal%C4%B1k kanat \"",
+              "    & \"<b style='color:%23E2C47E;font-family:Georgia;font-weight:normal;font-size:1.12em'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(topName, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</b>\"",
+              "    & \" %E2%80%94 t%C3%BCm departmanlar i%C3%A7indeki pay%C4%B1 \"",
+              "    & \"<b style='color:%23E2C47E;font-family:Georgia;font-weight:normal;font-size:1.12em'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(IF(ISBLANK(topShare), \"hesaplanamıyor\", FORMAT(topShare, \"0.0%\")), \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</b>\"",
+              "    & \".\"",
+              "    & \"</div></foreignObject></svg>\""
+            ],
+            "displayFolder": "Müze sunumu",
+            "dataCategory": "ImageUrl"
+          },
+          {
+            "name": "Narrative Departments",
+            "expression": [
+              "VAR t = FILTER(ADDCOLUMNS(VALUES(Artwork[department]), \"@g\", [Gallery Information Share]), NOT ISBLANK([@g]))",
+              "VAR hi = TOPN(1, t, [@g], DESC, Artwork[department], ASC)",
+              "VAR lo = TOPN(1, t, [@g], ASC, Artwork[department], ASC)",
+              "VAR hiName = COALESCE(MAXX(hi, Artwork[department]), \"—\")",
+              "VAR loName = COALESCE(MAXX(lo, Artwork[department]), \"—\")",
+              "VAR hiShare = MAXX(hi, [@g])",
+              "VAR loShare = MAXX(lo, [@g])",
+              "RETURN",
+              "    \"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='760' height='58' viewBox='0 0 760 58'><foreignObject x='0' y='0' width='760' height='58'><div xmlns='http://www.w3.org/1999/xhtml' style='font-family:Segoe UI;font-size:14px;line-height:1.55;color:%23CFC2AE;margin:0'>\"",
+              "    & \"Galeri numaras%C4%B1 en s%C4%B1k kay%C4%B1tl%C4%B1 kanat \"",
+              "    & \"<b style='color:%23E2C47E;font-family:Georgia;font-weight:normal;font-size:1.12em'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(hiName, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</b>\"",
+              "    & \" (\"",
+              "    & \"<b style='color:%23E2C47E;font-family:Georgia;font-weight:normal;font-size:1.12em'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(IF(ISBLANK(hiShare), \"hesaplanamıyor\", FORMAT(hiShare, \"0.0%\")), \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</b>\"",
+              "    & \"), en seyrek \"",
+              "    & \"<b style='color:%23E2C47E;font-family:Georgia;font-weight:normal;font-size:1.12em'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(loName, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</b>\"",
+              "    & \" (\"",
+              "    & \"<b style='color:%23E2C47E;font-family:Georgia;font-weight:normal;font-size:1.12em'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(IF(ISBLANK(loShare), \"hesaplanamıyor\", FORMAT(loShare, \"0.0%\")), \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</b>\"",
+              "    & \"). Galeri numaras%C4%B1, eserin %C5%9Fu an sergilendi%C4%9Fini kan%C4%B1tlamaz.\"",
+              "    & \"</div></foreignObject></svg>\""
+            ],
+            "displayFolder": "Müze sunumu",
+            "dataCategory": "ImageUrl"
+          },
+          {
+            "name": "Narrative Periods",
+            "expression": [
+              "VAR topP = TOPN(1, VALUES(Artwork[timeline_period]), [Artwork Count], DESC, Artwork[timeline_period], ASC)",
+              "VAR topName = COALESCE(MAXX(topP, Artwork[timeline_period]), \"—\")",
+              "VAR busiestCount = CALCULATE([Artwork Count], topP)",
+              "VAR oldPD = CALCULATE([Public Domain Share], KEEPFILTERS(Artwork[object_begin_date] < 1900))",
+              "VAR newPD = CALCULATE([Public Domain Share], KEEPFILTERS(Artwork[object_begin_date] >= 1900))",
+              "RETURN",
+              "    \"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='760' height='58' viewBox='0 0 760 58'><foreignObject x='0' y='0' width='760' height='58'><div xmlns='http://www.w3.org/1999/xhtml' style='font-family:Segoe UI;font-size:14px;line-height:1.55;color:%23CFC2AE;margin:0'>\"",
+              "    & \"En kalabal%C4%B1k d%C3%B6nem \"",
+              "    & \"<b style='color:%23E2C47E;font-family:Georgia;font-weight:normal;font-size:1.12em'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(topName, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</b>\"",
+              "    & \" (\"",
+              "    & \"<b style='color:%23E2C47E;font-family:Georgia;font-weight:normal;font-size:1.12em'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(FORMAT(busiestCount, \"#,0\"), \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</b>\"",
+              "    & \" eser). Ba%C5%9Flang%C4%B1%C3%A7 y%C4%B1l%C4%B1 1900 %C3%B6ncesi eserlerde kamu mal%C4%B1 pay%C4%B1 \"",
+              "    & \"<b style='color:%23E2C47E;font-family:Georgia;font-weight:normal;font-size:1.12em'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(IF(ISBLANK(oldPD), \"hesaplanamıyor\", FORMAT(oldPD, \"0.0%\")), \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</b>\"",
+              "    & \", 1900 ve sonras%C4%B1nda \"",
+              "    & \"<b style='color:%23E2C47E;font-family:Georgia;font-weight:normal;font-size:1.12em'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(IF(ISBLANK(newPD), \"hesaplanamıyor\", FORMAT(newPD, \"0.0%\")), \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</b>\"",
+              "    & \".\"",
+              "    & \"</div></foreignObject></svg>\""
+            ],
+            "displayFolder": "Müze sunumu",
+            "dataCategory": "ImageUrl"
+          },
+          {
+            "name": "Top Culture",
+            "expression": [
+              "VAR t = FILTER(VALUES(Artwork[culture]), NOT ISBLANK(Artwork[culture]) && NOT (TRIM(Artwork[culture]) IN {\"\", \"Unknown\"}))",
+              "RETURN MAXX(TOPN(1, t, [Artwork Count], DESC, Artwork[culture], ASC), Artwork[culture])"
+            ],
+            "displayFolder": "Müze sunumu"
+          },
+          {
+            "name": "Tooltip Label SVG",
+            "expression": [
+              "VAR d = IF(HASONEVALUE(Artwork[department]), VALUES(Artwork[department]), \"Seçili departmanlar\")",
+              "VAR n = [Artwork Count]",
+              "VAR pd = [Public Domain Share]",
+              "VAR gi = [Gallery Information Share]",
+              "VAR hl = COALESCE([Highlight Artwork Count], 0)",
+              "VAR cult = COALESCE([Top Culture], \"kayıtlı değil\")",
+              "RETURN",
+              "    \"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='360' height='230' viewBox='0 0 360 230'><foreignObject x='0' y='0' width='360' height='230'><div xmlns='http://www.w3.org/1999/xhtml' style='margin:0;background:%23FBF7EE;height:226px;border:2px solid %23C9A45C;box-sizing:border-box'>\"",
+              "    & \"<div style='padding:16px 20px;font-family:Segoe UI;color:%232A211B'>\"",
+              "    & \"<div style='font-size:9px;letter-spacing:2.2px;color:%238E2A2F;font-weight:600'>DEPARTMAN %C2%B7 M%C3%9CZE ET%C4%B0KET%C4%B0</div>\"",
+              "    & \"<div style='font-family:Georgia;font-size:19px;line-height:1.2;margin-top:6px;height:46px;overflow:hidden'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(d, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</div>\"",
+              "    & \"<div style='height:1px;background:%23C9A45C;margin:8px 0 10px'></div>\"",
+              "    & \"<table style='width:100%25;border-collapse:collapse;font-size:10px;color:%236E6052'><tr>\"",
+              "    & \"<td style='width:50%25;padding:0 0 9px'>Eser<br/><span style='font-family:Georgia;font-size:19px;color:%232A211B'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(FORMAT(n, \"#,0\"), \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</span></td>\"",
+              "    & \"<td style='width:50%25;padding:0 0 9px'>Kamu mal%C4%B1 pay%C4%B1<br/><span style='font-family:Georgia;font-size:19px;color:%232A211B'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(IF(ISBLANK(pd), \"hesaplanamıyor\", FORMAT(pd, \"0.0%\")), \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</span></td></tr><tr>\"",
+              "    & \"<td style='width:50%25;padding:0 0 9px'>Galeri bilgisi pay%C4%B1<br/><span style='font-family:Georgia;font-size:19px;color:%232A211B'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(IF(ISBLANK(gi), \"hesaplanamıyor\", FORMAT(gi, \"0.0%\")), \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</span></td>\"",
+              "    & \"<td style='width:50%25;padding:0 0 9px'>%C3%96ne %C3%A7%C4%B1kan eser<br/><span style='font-family:Georgia;font-size:19px;color:%232A211B'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(FORMAT(hl, \"#,0\"), \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</span></td>\"",
+              "    & \"</tr></table><div style='font-size:10px;color:%236E6052'>En yayg%C4%B1n k%C3%BClt%C3%BCr: <i style='color:%232A211B;font-family:Georgia'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(cult, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</i></div></div>\"",
+              "    & \"</div></foreignObject></svg>\""
+            ],
+            "displayFolder": "Müze sunumu",
+            "dataCategory": "ImageUrl"
+          },
+          {
+            "name": "Period Material Share",
+            "expression": [
+              "DIVIDE([Artwork Count], CALCULATE([Artwork Count], REMOVEFILTERS(Artwork[object_type_material])))"
+            ],
+            "displayFolder": "Müze sunumu",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Heat Fill",
+            "expression": [
+              "VAR s = [Period Material Share]",
+              "RETURN SWITCH(TRUE(), ISBLANK(s), \"#F7F2E8\", s < 0.01, \"#F2EADB\", s < 0.025, \"#EADBC0\", s < 0.05, \"#E0C796\",",
+              "    s < 0.10, \"#D3AC68\", s < 0.15, \"#C08A48\", s < 0.25, \"#A2603A\", s < 0.35, \"#83402F\", \"#5A1B1F\")"
+            ],
+            "displayFolder": "Müze sunumu",
+            "isHidden": true
+          },
+          {
+            "name": "Heat Ink",
+            "expression": [
+              "IF([Period Material Share] >= 0.15, \"#FBF6EC\", \"#2A211B\")"
+            ],
+            "displayFolder": "Müze sunumu",
+            "isHidden": true
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Artwork",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = GoogleBigQuery.Database([BillingProject=\"the-met-open-access\", UseStorageApi=false]),",
+                "    Project = Source{[Name=\"the-met-open-access\"]}[Data],",
+                "    Dataset = Project{[Name=\"met_data\", Kind=\"Schema\"]}[Data],",
+                "    Mart = Dataset{[Name=\"mart_met_objects\", Kind=\"Table\"]}[Data],",
+                "    Typed = Table.TransformColumnTypes(Mart, {{\"object_id\", Int64.Type}, {\"object_number\", type text}, {\"title\", type text}, {\"object_name\", type text}, {\"department\", type text}, {\"is_highlight\", type logical}, {\"is_timeline_work\", type logical}, {\"is_public_domain\", type logical}, {\"is_on_view\", type logical}, {\"gallery_number\", type text}, {\"accession_year\", Int64.Type}, {\"accession_decade\", type text}, {\"object_date\", type text}, {\"object_begin_date\", Int64.Type}, {\"object_end_date\", Int64.Type}, {\"timeline_period\", type text}, {\"timeline_period_order\", Int64.Type}, {\"period\", type text}, {\"culture\", type text}, {\"country\", type text}, {\"credit_line\", type text}, {\"acquisition_category_broad\", type text}, {\"acquisition_type\", type text}, {\"primary_donor\", type text}, {\"artist_display_name\", type text}, {\"artist_nationality\", type text}, {\"artist_gender_standardized\", type text}, {\"artist_wikidata_url\", type text}, {\"object_type_material\", type text}, {\"classification\", type text}, {\"medium\", type text}, {\"dimensions\", type text}, {\"rights_and_reproduction\", type text}, {\"link_resource\", type text}})",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "QualityField",
+        "columns": [
+          {
+            "name": "Field",
+            "dataType": "string",
+            "isNameInferred": false,
+            "lineageTag": "99ac38db-a0e6-4664-9758-6494ecee13c2",
+            "sortByColumn": "Order",
+            "sourceColumn": "[Field]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Order",
+            "dataType": "int64",
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "3e343599-bb04-4cdf-b8c2-1c7e369dd368",
+            "sourceColumn": "[Order]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "74b5f9e7-e072-401d-a434-799726a07996",
+        "partitions": [
+          {
+            "name": "QualityField",
+            "mode": "import",
+            "source": {
+              "expression": "DATATABLE(\"Field\", STRING, \"Order\", INTEGER, {{\"Kültür\", 1}, {\"Ülke\", 2}, {\"Malzeme\", 3}, {\"Sanatçı atfı\", 4}, {\"Edinim yılı\", 5}})",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Gallery",
+        "columns": [
+          {
+            "name": "object_id",
+            "dataType": "int64",
+            "sourceColumn": "object_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "title",
+            "dataType": "string",
+            "sourceColumn": "title",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "artist",
+            "dataType": "string",
+            "sourceColumn": "artist",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "artist_bio",
+            "dataType": "string",
+            "sourceColumn": "artist_bio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "culture",
+            "dataType": "string",
+            "sourceColumn": "culture",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date",
+            "dataType": "string",
+            "sourceColumn": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "begin_year",
+            "dataType": "int64",
+            "sourceColumn": "begin_year",
+            "summarizeBy": "none",
+            "formatString": "0;\"MÖ \"0"
+          },
+          {
+            "name": "era",
+            "dataType": "string",
+            "sourceColumn": "era",
+            "summarizeBy": "none",
+            "sortByColumn": "era_order"
+          },
+          {
+            "name": "era_order",
+            "dataType": "int64",
+            "sourceColumn": "era_order",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "department",
+            "dataType": "string",
+            "sourceColumn": "department",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "kind",
+            "dataType": "string",
+            "sourceColumn": "kind",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "medium",
+            "dataType": "string",
+            "sourceColumn": "medium",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "size_cm",
+            "dataType": "string",
+            "sourceColumn": "size_cm",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "credit_line",
+            "dataType": "string",
+            "sourceColumn": "credit_line",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "accession_number",
+            "dataType": "string",
+            "sourceColumn": "accession_number",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gallery_number",
+            "dataType": "string",
+            "sourceColumn": "gallery_number",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "kind_label",
+            "dataType": "string",
+            "sourceColumn": "kind_label",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "era_rank",
+            "dataType": "int64",
+            "sourceColumn": "era_rank",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "wikipedia_languages",
+            "dataType": "int64",
+            "sourceColumn": "wikipedia_languages",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "artist_wikipedia_languages",
+            "dataType": "int64",
+            "sourceColumn": "artist_wikipedia_languages",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "image_url",
+            "dataType": "string",
+            "sourceColumn": "image_url",
+            "summarizeBy": "none",
+            "dataCategory": "ImageUrl"
+          },
+          {
+            "name": "thumb_url",
+            "dataType": "string",
+            "sourceColumn": "thumb_url",
+            "summarizeBy": "none",
+            "dataCategory": "ImageUrl"
+          },
+          {
+            "name": "met_url",
+            "dataType": "string",
+            "sourceColumn": "met_url",
+            "summarizeBy": "none",
+            "dataCategory": "WebUrl"
+          },
+          {
+            "name": "artist_wiki_url",
+            "dataType": "string",
+            "sourceColumn": "artist_wiki_url",
+            "summarizeBy": "none",
+            "dataCategory": "WebUrl"
+          },
+          {
+            "name": "object_wiki_url",
+            "dataType": "string",
+            "sourceColumn": "object_wiki_url",
+            "summarizeBy": "none",
+            "dataCategory": "WebUrl"
+          },
+          {
+            "name": "sight_x",
+            "dataType": "double",
+            "sourceColumn": "sight_x",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "sight_y",
+            "dataType": "double",
+            "sourceColumn": "sight_y",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "sight_w",
+            "dataType": "double",
+            "sourceColumn": "sight_w",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "sight_h",
+            "dataType": "double",
+            "sourceColumn": "sight_h",
+            "summarizeBy": "none",
+            "isHidden": true
+          }
+        ],
+        "measures": [
+          {
+            "name": "Gallery Artwork Count",
+            "expression": [
+              "COUNTROWS(Gallery)"
+            ],
+            "displayFolder": "Müze sunumu",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Gallery Image Count",
+            "expression": [
+              "CALCULATE(COUNTROWS(Gallery), Gallery[image_url] <> \"\")"
+            ],
+            "displayFolder": "Müze sunumu",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Gallery Tab Label",
+            "expression": [
+              "FORMAT(COALESCE(COUNTROWS(Gallery), 0), \"#,0\") & \" eser\""
+            ],
+            "displayFolder": "Müze sunumu",
+            "isHidden": true
+          },
+          {
+            "name": "Gallery Default ID",
+            "expression": [
+              "VAR best = MINX(TOPN(1, FILTER(Gallery, Gallery[image_url] <> \"\"), Gallery[era_rank], ASC, Gallery[wikipedia_languages], DESC, Gallery[object_id], ASC), Gallery[object_id])",
+              "RETURN COALESCE(best, MIN(Gallery[object_id]))"
+            ],
+            "displayFolder": "Müze sunumu",
+            "isHidden": true
+          },
+          {
+            "name": "Selected Gallery ID",
+            "expression": [
+              "VAR one = IF(HASONEVALUE(Gallery[object_id]), VALUES(Gallery[object_id]))",
+              "VAR picked = COALESCE(one, [Gallery Default ID])",
+              "VAR withoutPick = CALCULATE([Gallery Default ID], REMOVEFILTERS(Gallery[era_rank], Gallery[thumb_url], Gallery[title], Gallery[begin_year]))",
+              "VAR roomDefault = CALCULATE([Gallery Default ID], REMOVEFILTERS(Gallery))",
+              "RETURN COALESCE(picked, withoutPick, roomDefault)"
+            ],
+            "displayFolder": "Müze sunumu",
+            "isHidden": true
+          },
+          {
+            "name": "Selected Gallery Image",
+            "expression": [
+              "VAR selId = [Selected Gallery ID]",
+              "VAR link = MAXX(FILTER(ALL(Gallery), Gallery[object_id] = selId), Gallery[image_url])",
+              "RETURN IF(ISBLANK(selId), BLANK(), IF(link = \"\", \"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='480' height='600' viewBox='0 0 480 600'><defs><radialGradient id='g' cx='50%25' cy='38%25' r='75%25'><stop offset='0' stop-color='%23F4EDE0'/><stop offset='1' stop-color='%23D9CDB8'/></radialGradient></defs><rect width='480' height='600' fill='url(%23g)'/><rect x='170' y='170' width='140' height='110' fill='none' stroke='%23A7967B' stroke-width='3'/><path d='M182 266 L222 222 L248 248 L268 230 L298 266 Z' fill='%23BFAF93'/><circle cx='280' cy='198' r='11' fill='%23BFAF93'/><text x='240' y='336' text-anchor='middle' font-family='Georgia' font-size='25' fill='%234A3F35'>G%C3%B6rsel a%C3%A7%C4%B1k eri%C5%9Fimde de%C4%9Fil</text><text x='240' y='372' text-anchor='middle' font-family='Segoe UI' font-size='14.5' fill='%236E6052'>The Met bu eser i%C3%A7in a%C3%A7%C4%B1k eri%C5%9Fim g%C3%B6rseli yay%C4%B1mlam%C4%B1yor.</text><text x='240' y='394' text-anchor='middle' font-family='Segoe UI' font-size='14.5' fill='%236E6052'>Eseri sa%C4%9Fdaki %E2%80%9CThe Met eser sayfas%C4%B1%E2%80%9D ba%C4%9Flant%C4%B1s%C4%B1nda g%C3%B6r%C3%BCn.</text></svg>\", link))"
+            ],
+            "displayFolder": "Müze sunumu",
+            "dataCategory": "ImageUrl"
+          },
+          {
+            "name": "Selected Met URL",
+            "expression": [
+              "VAR selId = [Selected Gallery ID]",
+              "VAR link = MAXX(FILTER(ALL(Gallery), Gallery[object_id] = selId), Gallery[met_url])",
+              "RETURN IF(link = \"\", BLANK(), link)"
+            ],
+            "displayFolder": "Müze sunumu",
+            "dataCategory": "WebUrl"
+          },
+          {
+            "name": "Selected Artist Wiki URL",
+            "expression": [
+              "VAR selId = [Selected Gallery ID]",
+              "VAR link = MAXX(FILTER(ALL(Gallery), Gallery[object_id] = selId), Gallery[artist_wiki_url])",
+              "RETURN IF(link = \"\", BLANK(), link)"
+            ],
+            "displayFolder": "Müze sunumu",
+            "dataCategory": "WebUrl"
+          },
+          {
+            "name": "Selected Object Wiki URL",
+            "expression": [
+              "VAR selId = [Selected Gallery ID]",
+              "VAR link = MAXX(FILTER(ALL(Gallery), Gallery[object_id] = selId), Gallery[object_wiki_url])",
+              "RETURN IF(link = \"\", BLANK(), link)"
+            ],
+            "displayFolder": "Müze sunumu",
+            "dataCategory": "WebUrl"
+          },
+          {
+            "name": "Gallery Frame SVG",
+            "expression": [
+              "VAR selId = [Selected Gallery ID]",
+              "VAR r = FILTER(ALL(Gallery), Gallery[object_id] = selId)",
+              "VAR sx = MAXX(r, Gallery[sight_x])",
+              "VAR sy = MAXX(r, Gallery[sight_y])",
+              "VAR sw = MAXX(r, Gallery[sight_w])",
+              "VAR sh = MAXX(r, Gallery[sight_h])",
+              "RETURN IF(ISBLANK(selId), BLANK(), IF(MAXX(r, Gallery[kind]) = \"painting\",",
+              "    \"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='584' height='562' viewBox='0 0 584 562'><defs><filter id='s' x='-20%25' y='-20%25' width='140%25' height='140%25'><feGaussianBlur stdDeviation='10'/></filter><filter id='i' x='-5%25' y='-5%25' width='110%25' height='110%25'><feGaussianBlur stdDeviation='3'/></filter></defs><path d='M\"",
+              "    & FORMAT(sx + (-35.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-25.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(sw + (70.00), \"0.0\", \"en-US\")",
+              "    & \"v\"",
+              "    & FORMAT(sh + (74.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(-sw + (-70.00), \"0.0\", \"en-US\")",
+              "    & \"Z M\"",
+              "    & FORMAT(sx + (0.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (0.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(sw + (0.00), \"0.0\", \"en-US\")",
+              "    & \"v\"",
+              "    & FORMAT(sh + (0.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(-sw + (-0.00), \"0.0\", \"en-US\")",
+              "    & \"Z' fill='%23000' fill-opacity='0.6' fill-rule='evenodd' filter='url(%23s)'/><path d='M\"",
+              "    & FORMAT(sx + (-2.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-2.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(sw + (4.00), \"0.0\", \"en-US\")",
+              "    & \"v\"",
+              "    & FORMAT(sh + (4.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(-sw + (-4.00), \"0.0\", \"en-US\")",
+              "    & \"Z M\"",
+              "    & FORMAT(sx + (2.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (5.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(sw + (-4.00), \"0.0\", \"en-US\")",
+              "    & \"v\"",
+              "    & FORMAT(sh + (-7.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(-sw + (4.00), \"0.0\", \"en-US\")",
+              "    & \"Z' fill='%23000' fill-opacity='0.55' fill-rule='evenodd' filter='url(%23i)'/><path d='M\"",
+              "    & FORMAT(sx + (-9.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-9.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(sw + (18.00), \"0.0\", \"en-US\")",
+              "    & \"v\"",
+              "    & FORMAT(sh + (18.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(-sw + (-18.00), \"0.0\", \"en-US\")",
+              "    & \"Z M\"",
+              "    & FORMAT(sx + (0.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (0.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(sw + (0.00), \"0.0\", \"en-US\")",
+              "    & \"v\"",
+              "    & FORMAT(sh + (0.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(-sw + (-0.00), \"0.0\", \"en-US\")",
+              "    & \"Z' fill='%23E6DCC4' fill-rule='evenodd'/><rect x='\"",
+              "    & FORMAT(sx + (-0.50), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-0.50), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (1.00), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (1.00), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%239C8B66' stroke-width='1'/><rect x='\"",
+              "    & FORMAT(sx + (-38.06), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-38.06), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (76.12), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (76.12), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%235C4319' stroke-width='2.58'/><rect x='\"",
+              "    & FORMAT(sx + (-36.19), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-36.19), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (72.38), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (72.38), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23DFC27D' stroke-width='2.58'/><rect x='\"",
+              "    & FORMAT(sx + (-34.31), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-34.31), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (68.62), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (68.62), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23BC9448' stroke-width='2.58'/><rect x='\"",
+              "    & FORMAT(sx + (-32.44), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-32.44), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (64.88), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (64.88), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%239A7634' stroke-width='2.58'/><rect x='\"",
+              "    & FORMAT(sx + (-30.56), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-30.56), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (61.12), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (61.12), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%237A5A22' stroke-width='2.58'/><rect x='\"",
+              "    & FORMAT(sx + (-28.69), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-28.69), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (57.38), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (57.38), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%239D7C3D' stroke-width='2.58'/><rect x='\"",
+              "    & FORMAT(sx + (-26.81), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-26.81), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (53.62), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (53.62), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23D2AE63' stroke-width='2.58'/><rect x='\"",
+              "    & FORMAT(sx + (-24.94), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-24.94), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (49.88), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (49.88), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23EFDA9D' stroke-width='2.58'/><rect x='\"",
+              "    & FORMAT(sx + (-23.06), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-23.06), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (46.12), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (46.12), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23D0B06B' stroke-width='2.58'/><rect x='\"",
+              "    & FORMAT(sx + (-21.19), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-21.19), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (42.38), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (42.38), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23B69046' stroke-width='2.58'/><rect x='\"",
+              "    & FORMAT(sx + (-19.31), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-19.31), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (38.62), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (38.62), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23AA853C' stroke-width='2.58'/><rect x='\"",
+              "    & FORMAT(sx + (-17.44), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-17.44), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (34.88), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (34.88), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23A7843C' stroke-width='2.58'/><rect x='\"",
+              "    & FORMAT(sx + (-15.56), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-15.56), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (31.12), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (31.12), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23CDAD65' stroke-width='2.58'/><rect x='\"",
+              "    & FORMAT(sx + (-13.69), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-13.69), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (27.38), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (27.38), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23BFA261' stroke-width='2.58'/><rect x='\"",
+              "    & FORMAT(sx + (-11.81), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-11.81), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (23.62), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (23.62), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23674B1B' stroke-width='2.58'/><rect x='\"",
+              "    & FORMAT(sx + (-9.94), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-9.94), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (19.88), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (19.88), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%2333240C' stroke-width='2.58'/><polygon points='\"",
+              "    & FORMAT(sx + (-39.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-39.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + sw + (39.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-39.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + sw + (9.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-9.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + (-9.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-9.00), \"0.0\", \"en-US\")",
+              "    & \" ' fill='%23FFF6DC' fill-opacity='0.16'/><polygon points='\"",
+              "    & FORMAT(sx + (-39.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + sh + (39.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + sw + (39.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + sh + (39.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + sw + (9.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + sh + (9.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + (-9.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + sh + (9.00), \"0.0\", \"en-US\")",
+              "    & \" ' fill='%23140A00' fill-opacity='0.30'/><polygon points='\"",
+              "    & FORMAT(sx + sw + (39.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-39.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + sw + (39.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + sh + (39.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + sw + (9.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + sh + (9.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + sw + (9.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-9.00), \"0.0\", \"en-US\")",
+              "    & \" ' fill='%23140A00' fill-opacity='0.14'/></svg>\",",
+              "    \"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='584' height='562' viewBox='0 0 584 562'><defs><filter id='s' x='-20%25' y='-20%25' width='140%25' height='140%25'><feGaussianBlur stdDeviation='10'/></filter><filter id='i' x='-5%25' y='-5%25' width='110%25' height='110%25'><feGaussianBlur stdDeviation='3'/></filter></defs><path d='M\"",
+              "    & FORMAT(sx + (-33.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-23.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(sw + (66.00), \"0.0\", \"en-US\")",
+              "    & \"v\"",
+              "    & FORMAT(sh + (70.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(-sw + (-66.00), \"0.0\", \"en-US\")",
+              "    & \"Z M\"",
+              "    & FORMAT(sx + (0.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (0.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(sw + (0.00), \"0.0\", \"en-US\")",
+              "    & \"v\"",
+              "    & FORMAT(sh + (0.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(-sw + (-0.00), \"0.0\", \"en-US\")",
+              "    & \"Z' fill='%23000' fill-opacity='0.6' fill-rule='evenodd' filter='url(%23s)'/><path d='M\"",
+              "    & FORMAT(sx + (-2.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-2.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(sw + (4.00), \"0.0\", \"en-US\")",
+              "    & \"v\"",
+              "    & FORMAT(sh + (4.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(-sw + (-4.00), \"0.0\", \"en-US\")",
+              "    & \"Z M\"",
+              "    & FORMAT(sx + (2.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (5.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(sw + (-4.00), \"0.0\", \"en-US\")",
+              "    & \"v\"",
+              "    & FORMAT(sh + (-7.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(-sw + (4.00), \"0.0\", \"en-US\")",
+              "    & \"Z' fill='%23000' fill-opacity='0.55' fill-rule='evenodd' filter='url(%23i)'/><path d='M\"",
+              "    & FORMAT(sx + (-24.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-24.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(sw + (48.00), \"0.0\", \"en-US\")",
+              "    & \"v\"",
+              "    & FORMAT(sh + (48.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(-sw + (-48.00), \"0.0\", \"en-US\")",
+              "    & \"Z M\"",
+              "    & FORMAT(sx + (0.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (0.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(sw + (0.00), \"0.0\", \"en-US\")",
+              "    & \"v\"",
+              "    & FORMAT(sh + (0.00), \"0.0\", \"en-US\")",
+              "    & \"h\"",
+              "    & FORMAT(-sw + (-0.00), \"0.0\", \"en-US\")",
+              "    & \"Z' fill='%231A1512' fill-rule='evenodd'/><rect x='\"",
+              "    & FORMAT(sx + (-0.50), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-0.50), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (1.00), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (1.00), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23000000' stroke-width='1'/><rect x='\"",
+              "    & FORMAT(sx + (-36.59), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-36.59), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (73.19), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (73.19), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%2317120E' stroke-width='1.51'/><rect x='\"",
+              "    & FORMAT(sx + (-35.78), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-35.78), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (71.56), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (71.56), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%232A2119' stroke-width='1.51'/><rect x='\"",
+              "    & FORMAT(sx + (-34.97), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-34.97), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (69.94), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (69.94), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%233D3023' stroke-width='1.51'/><rect x='\"",
+              "    & FORMAT(sx + (-34.16), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-34.16), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (68.31), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (68.31), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%2350402E' stroke-width='1.51'/><rect x='\"",
+              "    & FORMAT(sx + (-33.34), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-33.34), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (66.69), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (66.69), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23634F39' stroke-width='1.51'/><rect x='\"",
+              "    & FORMAT(sx + (-32.53), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-32.53), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (65.06), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (65.06), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23756045' stroke-width='1.51'/><rect x='\"",
+              "    & FORMAT(sx + (-31.72), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-31.72), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (63.44), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (63.44), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23887150' stroke-width='1.51'/><rect x='\"",
+              "    & FORMAT(sx + (-30.91), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-30.91), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (61.81), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (61.81), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%239B825C' stroke-width='1.51'/><rect x='\"",
+              "    & FORMAT(sx + (-30.09), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-30.09), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (60.19), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (60.19), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%2399805B' stroke-width='1.51'/><rect x='\"",
+              "    & FORMAT(sx + (-29.28), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-29.28), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (58.56), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (58.56), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23826C4D' stroke-width='1.51'/><rect x='\"",
+              "    & FORMAT(sx + (-28.47), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-28.47), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (56.94), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (56.94), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%236B583F' stroke-width='1.51'/><rect x='\"",
+              "    & FORMAT(sx + (-27.66), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-27.66), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (55.31), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (55.31), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23544431' stroke-width='1.51'/><rect x='\"",
+              "    & FORMAT(sx + (-26.84), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-26.84), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (53.69), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (53.69), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23423527' stroke-width='1.51'/><rect x='\"",
+              "    & FORMAT(sx + (-26.03), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-26.03), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (52.06), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (52.06), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%2332281D' stroke-width='1.51'/><rect x='\"",
+              "    & FORMAT(sx + (-25.22), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-25.22), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (50.44), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (50.44), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23211A14' stroke-width='1.51'/><rect x='\"",
+              "    & FORMAT(sx + (-24.41), \"0.0\", \"en-US\")",
+              "    & \"' y='\"",
+              "    & FORMAT(sy + (-24.41), \"0.0\", \"en-US\")",
+              "    & \"' width='\"",
+              "    & FORMAT(sw + (48.81), \"0.0\", \"en-US\")",
+              "    & \"' height='\"",
+              "    & FORMAT(sh + (48.81), \"0.0\", \"en-US\")",
+              "    & \"' fill='none' stroke='%23110D0A' stroke-width='1.51'/><polygon points='\"",
+              "    & FORMAT(sx + (-37.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-37.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + sw + (37.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-37.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + sw + (24.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-24.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + (-24.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-24.00), \"0.0\", \"en-US\")",
+              "    & \" ' fill='%23FFF6DC' fill-opacity='0.16'/><polygon points='\"",
+              "    & FORMAT(sx + (-37.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + sh + (37.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + sw + (37.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + sh + (37.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + sw + (24.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + sh + (24.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + (-24.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + sh + (24.00), \"0.0\", \"en-US\")",
+              "    & \" ' fill='%23140A00' fill-opacity='0.30'/><polygon points='\"",
+              "    & FORMAT(sx + sw + (37.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-37.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + sw + (37.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + sh + (37.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + sw + (24.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + sh + (24.00), \"0.0\", \"en-US\")",
+              "    & \" \"",
+              "    & FORMAT(sx + sw + (24.00), \"0.0\", \"en-US\")",
+              "    & \",\"",
+              "    & FORMAT(sy + (-24.00), \"0.0\", \"en-US\")",
+              "    & \" ' fill='%23140A00' fill-opacity='0.14'/></svg>\"))"
+            ],
+            "displayFolder": "Müze sunumu",
+            "dataCategory": "ImageUrl"
+          },
+          {
+            "name": "Gallery Wall Label SVG",
+            "expression": [
+              "VAR selId = [Selected Gallery ID]",
+              "VAR r = FILTER(ALL(Gallery), Gallery[object_id] = selId)",
+              "VAR title = MAXX(r, Gallery[title])",
+              "VAR dateValue = MAXX(r, Gallery[date])",
+              "VAR dateText = IF(dateValue = \"\", \"\", \", \" & dateValue)",
+              "VAR artist = MAXX(r, Gallery[artist])",
+              "VAR bio = MAXX(r, Gallery[artist_bio])",
+              "VAR galleryNo = MAXX(r, Gallery[gallery_number])",
+              "VAR flags = IF(galleryNo = \"\", \"GALERİ BİLGİSİ YOK\", \"GALERİ \" & galleryNo) & \" · \" & UPPER(MAXX(r, Gallery[era]))",
+              "    & IF(MAXX(r, Gallery[image_url]) = \"\", \" · GÖRSEL PAYLAŞILAMIYOR\", \"\")",
+              "VAR langs = MAXX(r, Gallery[wikipedia_languages])",
+              "VAR fame = \"DÖNEMİNDE \" & MAXX(r, Gallery[era_rank]) & \". SIRA · \"",
+              "    & IF(langs > 0, langs & \" DİLDE WIKIPEDIA MADDESİ\", \"WIKIPEDIA MADDESİ YOK\")",
+              "VAR sizeText = MAXX(r, Gallery[size_cm])",
+              "VAR medium = MAXX(r, Gallery[medium]) & IF(sizeText = \"\", \"\", \" · \" & sizeText)",
+              "VAR cultureText = MAXX(r, Gallery[culture])",
+              "VAR dept = MAXX(r, Gallery[department]) & IF(cultureText = \"\", \"\", \" · \" & cultureText)",
+              "VAR credit = MAXX(r, Gallery[credit_line])",
+              "VAR acc = MAXX(r, Gallery[accession_number])",
+              "VAR ts = IF(LEN(title) < 40, \"20\", IF(LEN(title) < 75, \"17\", \"14.5\"))",
+              "RETURN IF(ISBLANK(selId), BLANK(),",
+              "    \"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='348' height='392' viewBox='0 0 348 392'><defs><filter id='s' x='-20%25' y='-20%25' width='140%25' height='140%25'><feGaussianBlur stdDeviation='6'/></filter><linearGradient id='p' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='%23FBF7EE'/><stop offset='1' stop-color='%23EFE7D7'/></linearGradient></defs><rect x='10' y='12' width='328' height='372' fill='%23000' fill-opacity='0.55' filter='url(%23s)'/><rect x='6' y='4' width='336' height='376' fill='url(%23p)'/><foreignObject x='6' y='4' width='336' height='376'><div xmlns='http://www.w3.org/1999/xhtml'><div style='font-family:Segoe UI;color:%232A211B;padding:20px 22px'><div style='font-size:9.5px;letter-spacing:2.2px;color:%238E2A2F;font-weight:600'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(flags, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</div><div style='font-size:8.5px;letter-spacing:1.6px;color:%236E6052;margin-top:4px'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(fame, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</div><div style='font-family:Georgia;font-size:19px;line-height:1.2;margin-top:9px;max-height:46px;overflow:hidden;text-overflow:ellipsis'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(artist, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</div><div style='font-family:Georgia;font-style:italic;font-size:11.5px;color:%236E6052;margin-top:3px;max-height:30px;overflow:hidden;text-overflow:ellipsis'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(bio, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</div><div style='height:1px;background:%23C9A45C;margin:13px 0 12px'></div><div style='font-family:Georgia;font-style:italic;line-height:1.25;max-height:98px;overflow:hidden;text-overflow:ellipsis;font-size:\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(ts, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"px'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(title, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"<span style='font-style:normal'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(dateText, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</span></div><div style='font-size:11.5px;margin-top:10px;max-height:58px;overflow:hidden;text-overflow:ellipsis'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(medium, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</div><div style='font-size:11.5px;color:%236E6052;margin-top:2px;max-height:30px;overflow:hidden;text-overflow:ellipsis'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(dept, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</div><div style='font-size:10px;color:%236E6052;margin-top:12px;line-height:1.45;max-height:60px;overflow:hidden;text-overflow:ellipsis'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(credit, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"<br/>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(acc, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</div></div></div></foreignObject></svg>\")"
+            ],
+            "displayFolder": "Müze sunumu",
+            "dataCategory": "ImageUrl"
+          },
+          {
+            "name": "Narrative Gallery",
+            "expression": [
+              "VAR scopeName = IF(HASONEVALUE('Gallery Era'[era]), VALUES('Gallery Era'[era]), \"Tüm dönemler\")",
+              "VAR n = COALESCE(COUNTROWS(Gallery), 0)",
+              "RETURN",
+              "    \"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='760' height='58' viewBox='0 0 760 58'><foreignObject x='0' y='0' width='760' height='58'><div xmlns='http://www.w3.org/1999/xhtml' style='font-family:Segoe UI;font-size:14px;line-height:1.55;color:%23CFC2AE;margin:0'>\"",
+              "    & \"<b style='color:%23E2C47E;font-family:Georgia;font-weight:normal;font-size:1.12em'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(scopeName, \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</b>\"",
+              "    & \"  %C2%B7  en bilinen \"",
+              "    & \"<b style='color:%23E2C47E;font-family:Georgia;font-weight:normal;font-size:1.12em'>\"",
+              "    & SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(FORMAT(n, \"#,0\"), \"&\", \"&amp;\"), \"<\", \"&lt;\"), \">\", \"&gt;\"), \"%\", \"%25\"), \"#\", \"%23\")",
+              "    & \"</b>\"",
+              "    & \" ba%C5%9Fyap%C4%B1t, Wikipedia dil say%C4%B1s%C4%B1na g%C3%B6re. Bir esere t%C4%B1kla.\"",
+              "    & \"</div></foreignObject></svg>\""
+            ],
+            "displayFolder": "Müze sunumu",
+            "dataCategory": "ImageUrl"
+          },
+          {
+            "name": "Lobby Artwork Image",
+            "expression": [
+              "\"https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg\""
+            ],
+            "displayFolder": "Müze sunumu",
+            "dataCategory": "ImageUrl"
+          },
+          {
+            "name": "Lobby Frame SVG",
+            "expression": [
+              "\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='716' height='704' viewBox='0 0 716 704'><defs><filter id='s' x='-20%25' y='-20%25' width='140%25' height='140%25'><feGaussianBlur stdDeviation='10'/></filter><filter id='i' x='-5%25' y='-5%25' width='110%25' height='110%25'><feGaussianBlur stdDeviation='3'/></filter></defs><path d='M32.30,101.69h649.35v527.68h-649.35Z M67.30,126.69h579.35v453.68h-579.35Z' fill='%23000' fill-opacity='0.6' fill-rule='evenodd' filter='url(%23s)'/><path d='M65.30,124.69h583.35v457.68h-583.35Z M69.30,131.69h575.35v446.68h-575.35Z' fill='%23000' fill-opacity='0.55' fill-rule='evenodd' filter='url(%23i)'/><path d='M58.30,117.69h597.35v471.68h-597.35Z M67.30,126.69h579.35v453.68h-579.35Z' fill='%23E6DCC4' fill-rule='evenodd'/><rect x='66.80' y='126.19' width='580.35' height='454.68' fill='none' stroke='%239C8B66' stroke-width='1'/><rect x='29.24' y='88.63' width='655.47' height='529.80' fill='none' stroke='%235C4319' stroke-width='2.58'/><rect x='31.12' y='90.51' width='651.72' height='526.05' fill='none' stroke='%23DFC27D' stroke-width='2.58'/><rect x='32.99' y='92.38' width='647.97' height='522.30' fill='none' stroke='%23BC9448' stroke-width='2.58'/><rect x='34.87' y='94.26' width='644.22' height='518.55' fill='none' stroke='%239A7634' stroke-width='2.58'/><rect x='36.74' y='96.13' width='640.47' height='514.80' fill='none' stroke='%237A5A22' stroke-width='2.58'/><rect x='38.62' y='98.01' width='636.72' height='511.05' fill='none' stroke='%239D7C3D' stroke-width='2.58'/><rect x='40.49' y='99.88' width='632.97' height='507.30' fill='none' stroke='%23D2AE63' stroke-width='2.58'/><rect x='42.37' y='101.76' width='629.22' height='503.55' fill='none' stroke='%23EFDA9D' stroke-width='2.58'/><rect x='44.24' y='103.63' width='625.47' height='499.80' fill='none' stroke='%23D0B06B' stroke-width='2.58'/><rect x='46.12' y='105.51' width='621.72' height='496.05' fill='none' stroke='%23B69046' stroke-width='2.58'/><rect x='47.99' y='107.38' width='617.97' height='492.30' fill='none' stroke='%23AA853C' stroke-width='2.58'/><rect x='49.87' y='109.26' width='614.22' height='488.55' fill='none' stroke='%23A7843C' stroke-width='2.58'/><rect x='51.74' y='111.13' width='610.47' height='484.80' fill='none' stroke='%23CDAD65' stroke-width='2.58'/><rect x='53.62' y='113.01' width='606.72' height='481.05' fill='none' stroke='%23BFA261' stroke-width='2.58'/><rect x='55.49' y='114.88' width='602.97' height='477.30' fill='none' stroke='%23674B1B' stroke-width='2.58'/><rect x='57.37' y='116.76' width='599.22' height='473.55' fill='none' stroke='%2333240C' stroke-width='2.58'/><polygon points='28.30,87.69 685.65,87.69 655.65,117.69 58.30,117.69 ' fill='%23FFF6DC' fill-opacity='0.16'/><polygon points='28.30,619.37 685.65,619.37 655.65,589.37 58.30,589.37 ' fill='%23140A00' fill-opacity='0.30'/><polygon points='685.65,87.69 685.65,619.37 655.65,589.37 655.65,117.69 ' fill='%23140A00' fill-opacity='0.14'/></svg>\""
+            ],
+            "displayFolder": "Müze sunumu",
+            "dataCategory": "ImageUrl"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Gallery",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Json.Document(Binary.Decompress(Binary.FromText(\"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\", BinaryEncoding.Base64), Compression.Deflate)),",
+                "    Rows = Table.FromRows(Source, {\"object_id\", \"title\", \"artist\", \"artist_bio\", \"culture\", \"date\", \"begin_year\", \"era\", \"era_order\", \"department\", \"kind\", \"medium\", \"size_cm\", \"credit_line\", \"accession_number\", \"gallery_number\", \"kind_label\", \"era_rank\", \"wikipedia_languages\", \"artist_wikipedia_languages\", \"image_url\", \"thumb_url\", \"met_url\", \"artist_wiki_url\", \"object_wiki_url\", \"sight_x\", \"sight_y\", \"sight_w\", \"sight_h\"}),",
+                "    Typed = Table.TransformColumnTypes(Rows, {{\"object_id\", Int64.Type}, {\"title\", type text}, {\"artist\", type text}, {\"artist_bio\", type text}, {\"culture\", type text}, {\"date\", type text}, {\"begin_year\", Int64.Type}, {\"era\", type text}, {\"era_order\", Int64.Type}, {\"department\", type text}, {\"kind\", type text}, {\"medium\", type text}, {\"size_cm\", type text}, {\"credit_line\", type text}, {\"accession_number\", type text}, {\"gallery_number\", type text}, {\"kind_label\", type text}, {\"era_rank\", Int64.Type}, {\"wikipedia_languages\", Int64.Type}, {\"artist_wikipedia_languages\", Int64.Type}, {\"image_url\", type text}, {\"thumb_url\", type text}, {\"met_url\", type text}, {\"artist_wiki_url\", type text}, {\"object_wiki_url\", type text}, {\"sight_x\", type number}, {\"sight_y\", type number}, {\"sight_w\", type number}, {\"sight_h\", type number}})",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "description": "The 50 best-known highlight artworks with an open-access image in each era (465 rows), ranked by the number of Wikipedia languages about the artwork, then its artist (Wikidata). Met Collection API images and wall-label details. Independent of full-collection totals; see highlights-catalog.json for the snapshot date."
+      },
+      {
+        "name": "Gallery Era",
+        "columns": [
+          {
+            "name": "era",
+            "dataType": "string",
+            "sourceColumn": "era",
+            "summarizeBy": "none",
+            "sortByColumn": "era_order"
+          },
+          {
+            "name": "era_order",
+            "dataType": "int64",
+            "sourceColumn": "era_order",
+            "summarizeBy": "none",
+            "isHidden": true
+          }
+        ],
+        "description": "Era tabs of the Masterpieces room.",
+        "partitions": [
+          {
+            "name": "Gallery Era",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Rows = #table({\"era\", \"era_order\"}, {{\"MÖ 8000–2000\", 2}, {\"MÖ 2000–1000\", 3}, {\"MÖ 1000–MS 1\", 4}, {\"MS 1–500\", 5}, {\"500–1000\", 6}, {\"1000–1400\", 7}, {\"1400–1600\", 8}, {\"1600–1800\", 9}, {\"1800–1900\", 10}, {\"1900–günümüz\", 11}}),",
+                "    Typed = Table.TransformColumnTypes(Rows, {{\"era\", type text}, {\"era_order\", Int64.Type}})",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Gallery Department",
+        "columns": [
+          {
+            "name": "department",
+            "dataType": "string",
+            "sourceColumn": "department",
+            "summarizeBy": "none"
+          }
+        ],
+        "description": "Department picker of the Masterpieces room.",
+        "partitions": [
+          {
+            "name": "Gallery Department",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Rows = #table({\"department\"}, {{\"Ancient Near Eastern Art\"}, {\"Arms and Armor\"}, {\"Arts of Africa, Oceania, and the Americas\"}, {\"Asian Art\"}, {\"Costume Institute\"}, {\"Drawings and Prints\"}, {\"Egyptian Art\"}, {\"European Paintings\"}, {\"European Sculpture and Decorative Arts\"}, {\"Greek and Roman Art\"}, {\"Islamic Art\"}, {\"Medieval Art\"}, {\"Modern and Contemporary Art\"}, {\"Musical Instruments\"}, {\"Photographs\"}, {\"Robert Lehman Collection\"}, {\"The American Wing\"}, {\"The Cloisters\"}, {\"The Libraries\"}}),",
+                "    Typed = Table.TransformColumnTypes(Rows, {{\"department\", type text}})",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Gallery Type",
+        "columns": [
+          {
+            "name": "kind_label",
+            "dataType": "string",
+            "sourceColumn": "kind_label",
+            "summarizeBy": "none"
+          }
+        ],
+        "description": "Painting/object picker of the Masterpieces room.",
+        "partitions": [
+          {
+            "name": "Gallery Type",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Rows = #table({\"kind_label\"}, {{\"Obje\"}, {\"Resim\"}}),",
+                "    Typed = Table.TransformColumnTypes(Rows, {{\"kind_label\", type text}})",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "Gallery_era",
+        "fromTable": "Gallery",
+        "fromColumn": "era",
+        "toTable": "Gallery Era",
+        "toColumn": "era"
+      },
+      {
+        "name": "Gallery_department",
+        "fromTable": "Gallery",
+        "fromColumn": "department",
+        "toTable": "Gallery Department",
+        "toColumn": "department"
+      },
+      {
+        "name": "Gallery_kind_label",
+        "fromTable": "Gallery",
+        "fromColumn": "kind_label",
+        "toTable": "Gallery Type",
+        "toColumn": "kind_label"
+      }
+    ]
+  }
+}
