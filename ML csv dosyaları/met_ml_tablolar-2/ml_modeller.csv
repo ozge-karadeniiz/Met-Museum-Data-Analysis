@@ -1,0 +1,4 @@
+﻿Model,PR_AUC,ROC_AUC,Rastgeleye_kat
+Rastgele,0.0064,0.5,1.0
+Baseline (bölüm ortalaması),0.0266,0.7798,4.2
+Lojistik Regresyon,0.0604,0.877,9.5
