@@ -1,0 +1,8 @@
+﻿Senaryo,Eser,E[hl],Gerçek hl,Met tarzı hl,Gerçek/Met
+"Baz (WALK .40, sınıf 10, duvar %100)",440,41.6,25,9.5,2.63
+Gezinti payı artsın (WALK .50),390,39.3,22,10.5,2.1
+Gezinti payı azalsın (WALK .30),501,43.5,26,12.6,2.06
+Sınıf limiti sıkı (5),411,40.2,20,9.0,2.22
+Sınıf limiti gevşek (15),461,41.9,25,10.0,2.5
+Duvar en fazla %75 dolu,427,39.6,25,10.3,2.43
+"Hepsi sıkı (WALK .50, sınıf 5, duvar %75)",353,36.8,17,8.8,1.93
