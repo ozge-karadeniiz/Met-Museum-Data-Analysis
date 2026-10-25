@@ -27,3 +27,4 @@ logs/
 __pycache__/
 /work/highlight-cache/
 /work/*.pbix
+.DS_Store
