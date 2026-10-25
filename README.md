@@ -24,10 +24,11 @@ MET ATLAS, 5.000 yılı aşkın insanlık tarihine ve dünya kültür mirasına 
 * **Koleksiyon Büyümesi:** Müzenin belirli dönemlerde edindiği eser yoğunlukları ve bağış/satın alma trendleri haritalandırılmıştır.
 * **Kültürel Temsil:** Departmanlar bazında farklı coğrafya ve uygarlıkların koleksiyon içindeki ağırlıkları ve dönem dağılımları karşılaştırılmıştır.
 * **Açık Erişim:** Eserlerin telif durumları ve dijitalleştirilerek kamuya açılma oranları departman düzeyinde ölçülmüştür.
-<img width="1729" height="955" alt="Screenshot_4" src="https://github.com/user-attachments/assets/bf584b0c-c4a4-4ec9-9313-9fc4235cbad7" />
-<img width="1723" height="966" alt="Screenshot_3" src="https://github.com/user-attachments/assets/6cbea79b-b5b5-4e6c-a5be-1d1c89b3db64" />
-<img width="1541" height="986" alt="Screenshot_2" src="https://github.com/user-attachments/assets/16d5f46e-2b1d-4f37-9165-890132f2fb8f" />
-<img width="1548" height="993" alt="Screenshot_1" src="https://github.com/user-attachments/assets/3001c86d-ad73-46c1-8c90-124492cf37fb" />
+  
+<img width="1548" height="993" alt="Screenshot_1" src="https://github.com/user-attachments/assets/7e2775d7-7635-4e4c-b21c-90669d4e6813" />
+<img width="1541" height="986" alt="Screenshot_2" src="https://github.com/user-attachments/assets/c1c8de4b-5be9-412d-a721-c721a146bbee" />
+<img width="1723" height="966" alt="Screenshot_3" src="https://github.com/user-attachments/assets/fccdb703-bdd6-4f87-877b-dce7b7fce774" />
+<img width="1729" height="955" alt="Screenshot_4" src="https://github.com/user-attachments/assets/f07e0ae8-ac47-4ad1-849f-38a9c33ee47d" />
 
 ---
 
