@@ -3,7 +3,7 @@
 
 
 
-# MET ATLAS: The Metropolitan Museum of Art Open Access Analytics
+# The Met Museum Atlas: The Metropolitan Museum of Art Open Access Analytics
 
 Bu proje, The Metropolitan Museum of Art (The Met) Açık Erişim koleksiyon verilerini kullanarak modern veri ambarı, boyutsal veri modelleme ve iş zekası süreçlerini bir araya getiren kapsamlı bir veri analitiği çalışmasıdır.
 
